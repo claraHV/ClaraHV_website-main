@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@200&display=swap');
+
+/*ESTILOS PARA LA PAGINA DE HOME*/
+
+#home {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    grid-template-areas: "head head"
+    "main main";
+    grid-template-rows: auto;
+    grid-template-columns: 150px 1fr;
+  }
+  
+  #home > header {
+    grid-area: head;
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+
+  }
+
+  h1, h2 {
+    font-family: 'Josefin Sans', sans-serif;
+  }
+
+  #home > header > h1,h2 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+
+  #home > header > h1 {
+      font-size: 500%;
+      
+      
+  }
+
+  #home > header > h2 {
+    
+    font-size: 250%;
+    
+}
+  
+  
+  #home > main {
+    grid-area: main;
+    background-color: #13274F;
+    text-align: center;
+    color: #fff;
+    padding: 15%;
+  }
+
+  #home > main > div {
+      padding-bottom: 10%;
+      font-size: 150%;
+      font-family: 'Georama', sans-serif;
+  }
+
+  
+  #home > main > div:nth-child(2){
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+
+  @media screen and (max-width: 640px){
+
+    #home > main > div:nth-child(2){
+        flex-direction: column;
+    }
+  }
+
+/*ESTILOS PARA LA PÁGINA DE CONTACTO*/
+
+#contact_boxes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 28em);
+    grid-gap: 15px;
+    margin-top: 10%;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+#contacto > main, #perfil {
+    background-image: url("images/header-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip: content-box;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+#contacto > header > h1 {
+    color: #fff;
+}
+
+#contact_boxes > div {
+    
+    border: solid 5px #fff;
+    border-radius: 20px;
+    background-color: #13274F;
+
+
+}
+#contact_body{
+    background-color: #13274F;
+}
+
+#contacto p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Georama', sans-serif;
+}
+
+
+/**ESTILOS PARA LA PAGINA DE PERFIL**/
+
+#perfil {
+  display: flex;
+  flex-direction: row;
+}
+
+#perfil > div {
+  border: solid 1px #fff;
+  margin: 10px;
+  background-color: #13274F;
+}
+
+
+
+#perfil > h2, p {
+  color: #fff;
+  padding: 10px;
+}
+
+#perfil > img {
+  width: 30%;
+}
+
+.col {
+  flex-basis: 100%;
+}
+
+@media screen and (max-width: 640px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+}
+ 
+
+
+
+  
