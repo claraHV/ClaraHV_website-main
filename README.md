@@ -4,39 +4,26 @@
 
 ## Table of Contents
 1. [General Info](#general-info)
-2. [Functionalities](#functionalities)
-3. [Technologies](#technologies)
+3. [Screens](#screens)
 4. [References](#references)
 5. [License](#license)
 
 
 ### General Info
 
-Project done for the second challenge of the course BTC Front End React Online from GeeksHubs Academy.
-The project is about a dinamical showcase where user can add and delete product items from the cart.
+Project done for the first challenge of the course BTC Front End React Online from GeeksHubs Academy.
 
-### Functionalities
+### Screens
 
-The project has 2 functionalities:
+The project has 3 screens (main-profile-contact).
+Each one has been developed following the course guidelines about css layouts and html5.
 
-- Add to cart items by drag and drop each item on the cart. Total quantity is upload when an item is added.
-- Delete items by choosing "Eliminar" option. Total quantity is upload when an item is deleted.
-
-### Technologies
-
-This project is developped with
-
-* ES6 notation
-* Javascript
-* HTML5
-* CSS3
 
 ### References
 
 * [HTML5](https://htmlreference.io/)
 * [CSS3](https://cssreference.io/)
 * [Javascript](https://devdocs.io/javascript/)
-* [ES6](https://262.ecma-international.org/6.0/)
 
 ### License
 
